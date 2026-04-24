@@ -21,6 +21,33 @@ Kubernetes Service (Frontend / Backend)
   ↓
 Pods (React Frontend + Backend API)
 
-``
+```
+##**Tech Stack**
+
+1. Kubernetes (EKS)
+2. AWS (IAM, EC2, Load Balancer, VPC)
+3. Docker
+4. kubectl
+5. React (Frontend)
+6. Node.js / Spring Boot (Backend)
+7. OpenLens (Cluster Visualization)
+
+##**Project Structure**
+
+```
+movie-app-deployment/
+│
+├── k8s/
+│   ├── frontend-deployment.yaml
+│   ├── backend-deployment.yaml
+│   └── namespace.yaml
+│
+└── services/
+    ├── frontend-service.yaml
+    └── backend-service.yaml
+```
+
+#**Deployment Workflow**
+
 
 
