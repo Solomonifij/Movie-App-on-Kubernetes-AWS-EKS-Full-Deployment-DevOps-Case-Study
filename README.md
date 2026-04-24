@@ -230,7 +230,7 @@ The deployment validated:
 ```
 
 # Author
-## Solomon Sele Atalokhai (Ifijeh0
+## Solomon Sele Atalokhai (Ifijeh)
 Cloud & DevOps Engineer
 
 
