@@ -11,6 +11,8 @@ It includes:
 6. IAM-based cluster authentication
 7. Real-world debugging of cloud infrastructure issues
 
+---
+
 ##**Architecture**
 ```
 User
@@ -22,6 +24,8 @@ Kubernetes Service (Frontend / Backend)
 Pods (React Frontend + Backend API)
 
 ```
+---
+
 ##**Tech Stack**
 
 1. Kubernetes (EKS)
@@ -31,6 +35,8 @@ Pods (React Frontend + Backend API)
 5. React (Frontend)
 6. Node.js / Spring Boot (Backend)
 7. OpenLens (Cluster Visualization)
+
+--- 
 
 ##**Project Structure**
 
@@ -46,8 +52,10 @@ movie-app-deployment/
     ├── frontend-service.yaml
     └── backend-service.yaml
 ```
+---
 
 #**Deployment Workflow**
+
 
 
 
