@@ -58,7 +58,9 @@ movie-app-deployment/
 1. ## Create Kubernetes Cluster
  ```
  Bash
+
  eksctl create cluster --name solomon-prod-cluster --region us-east-1
+
 ```
 
 
