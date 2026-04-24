@@ -13,7 +13,7 @@ It includes:
 
 ---
 
-##**Architecture**
+## **Architecture**
 ```
 User
   ↓
@@ -26,7 +26,7 @@ Pods (React Frontend + Backend API)
 ```
 ---
 
-##**Tech Stack**
+## **Tech Stack**
 
 1. Kubernetes (EKS)
 2. AWS (IAM, EC2, Load Balancer, VPC)
@@ -38,7 +38,7 @@ Pods (React Frontend + Backend API)
 
 --- 
 
-##**Project Structure**
+## **Project Structure**
 
 ```
 movie-app-deployment/
@@ -54,7 +54,12 @@ movie-app-deployment/
 ```
 ---
 
-#**Deployment Workflow**
+# **Deployment Workflow**
+1. ## Create Kubernetes Cluster
+ ```
+ Bash
+ eksctl create cluster --name solomon-prod-cluster --region us-east-1
+```
 
 
 
