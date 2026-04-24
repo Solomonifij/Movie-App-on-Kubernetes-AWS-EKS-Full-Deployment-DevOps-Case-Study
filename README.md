@@ -11,4 +11,16 @@ It includes:
 6. IAM-based cluster authentication
 7. Real-world debugging of cloud infrastructure issues
 
+##**Architecture**
+```
+User
+  ↓
+AWS Load Balancer
+  ↓
+Kubernetes Service (Frontend / Backend)
+  ↓
+Pods (React Frontend + Backend API)
+
+``
+
 
